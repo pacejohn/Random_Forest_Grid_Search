@@ -10,11 +10,11 @@ Script to perform grid search of hyperparameters for random forests to find the 
 # Files
 The files used for analysis came from https://archive.ics.uci.edu/ml/datasets/Census+Income
 * The original file from UCI named adult.test has 16,281 records.
--I renamed adult.test to adult_data_small...
--I changed all categorical fields with text to categorical with integers
--I manually split this file into 2 files.  One for train/test and one for validation:
--adult_data_small_train_test has 14,500 records
--adult_data small_val has 1,781 records
+* I renamed adult.test to adult_data_small...
+* I changed all categorical fields with text to categorical with integers
+* I manually split this file into 2 files.  One for train/test and one for validation:
+..* adult_data_small_train_test has 14,500 records
+..* adult_data small_val has 1,781 records
 
 
 The original file from UCI named adult.data has 32,561 records
