@@ -1,5 +1,5 @@
-# Random_Forest_Grid_Search
-Script to perform grid search of hyperparameters for random forests to find the best hyperparameters
+# Random Forest Grid Search Example
+This Jupyter Notebook performs grid search of hyperparameters for random forests to find the best hyperparameters.  The data could stand a lot of feature engineering to better good predictions but I did not do that.  The purpose of this Notebook is to demonstrate how to do grid search for random forests.  If you decide to do feature engineering and get better results, please share!
 
 # This Jupyter Notebook performs multiple processes
 1. Import train/test and validation census data files
@@ -18,12 +18,13 @@ The files used for analysis came from https://archive.ics.uci.edu/ml/datasets/Ce
 
 
 The original file from UCI named adult.data has 32,561 records
--I renamed adult.data to adult_data_large...
--I changed all categorical fields with text to categorical with integers
--I manually split this file into 2 files.  One for train/test and one for validation:
-adult_data_large_train_test has 29,000 records
-adult_data_large_val has 3,561 records
+* I renamed adult.data to adult_data_large...
+* I changed all categorical fields with text to categorical with integers
+* I manually split this file into 2 files.  One for train/test and one for validation:
+  * adult_data_large_train_test has 29,000 records
+  *adult_data_large_val has 3,561 records
 
-I used the small files in the interest of run time.  The same process can be run using the large files.
+General Notes
+* I used the small files in the interest of run time.  The same process can be run using the large files.
 
-The data needs a lot of feature engineering to make good predictions but I did not do that.  The purpose of this notebook is to demonstrate how to do grid search for random forests.  If you decide to do feature engineering and get better results, please share!
+
