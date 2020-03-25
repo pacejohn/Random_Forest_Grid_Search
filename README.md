@@ -7,7 +7,7 @@ Script to perform grid search of hyperparameters for random forests
 3. Perform grid search for multiple hyperparameters to determine which create hyperparameters best fit the data (produce highest accuracy)
 4. Use random forest with optimal parameters determined from grid search to predict income for each row
 
-#H1 Files
+#H1 Files #H1
 # The original file from UCI named adult.test has 16,281 records
 # https://archive.ics.uci.edu/ml/datasets/Census+Income
 # Renamed adult.test to adult_data_small...
