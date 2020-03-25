@@ -24,7 +24,7 @@ The original file from UCI named adult.data has 32,561 records
   * adult_data_large_train_test has 29,000 records
   *adult_data_large_val has 3,561 records
 
-General Notes
+# General Notes
 * I used the small files in the interest of run time.  The same process can be run using the large files.
 
 
